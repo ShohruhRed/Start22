@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#"
+     xml:base="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-14="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#правления -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#правления">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ФормаПравления"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ФормаПравления"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#расположенВ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#расположенВ">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#типомКонституцииЯвляется -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#типомКонституцииЯвляется">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#является -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#является">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ГлаваГосударства"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#являетсяАбсолютнойМонархией -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#являетсяАбсолютнойМонархией">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#АбсолютнаяМонархия"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ФормаПравления"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#являетсяКонституционнойМонархией -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#являетсяКонституционнойМонархией">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#КонституционнаяМонархия"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#являетсяРеспубликой -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#являетсяРеспубликой">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#датаПринятия -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#датаПринятия">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#количествоСтатей -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#количествоСтатей">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#АбсолютнаяМонархия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#АбсолютнаяМонархия">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#являетсяАбсолютнойМонархией"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#АбсолютнаяМонархия"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ФормаПравления"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#расположенВ"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Азия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Азия">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#расположенВ"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Азия"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Африка -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Африка">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#расположенВ"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Африка"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ГлаваГосударства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ГлаваГосударства">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Законодательство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Законодательство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Европа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Европа">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#расположенВ"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Европа"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Законодательство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Законодательство"/>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#является"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ГлаваГосударства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#КонституционнаяМонархия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#КонституционнаяМонархия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ФормаПравления"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Законодательство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#НеписаныеКонституции -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#НеписаныеКонституции">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#типомКонституцииЯвляется"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#НеписаныеКонституции"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#типомКонституцииЯвляется"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ФормаПравления"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#СевернаяАмерика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#СевернаяАмерика">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#расположенВ"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#СевернаяАмерика"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ФормаПравления -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ФормаПравления">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Законодательство"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Церемониально -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Церемониально">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#является"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Церемониально"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ГлаваГосударства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ЮжнаяАмерика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ЮжнаяАмерика">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#расположенВ"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ЮжнаяАмерика"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Государства"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#КонституционнаяМонархия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <расположенВ rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия"/>
+        <являетсяКонституционнойМонархией rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</датаПринятия>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1900</датаПринятия>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Аргентина -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Аргентина">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ЮжнаяАмерика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Аргентина"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1853</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Беларусь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Беларусь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Европа"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Беларусь"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Бразилия -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Бразилия">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ЮжнаяАмерика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Бразилия"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</датаПринятия>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</датаПринятия>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Египет -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Египет">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Африка"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Египет"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Индия -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Индия">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Азия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Церемониально"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Индия"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1949</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Испания -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Испания">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Европа"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#КонституционнаяМонархия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Церемониально"/>
+        <являетсяКонституционнойМонархией rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Испания"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1978</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Италия -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Италия">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Европа"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Церемониально"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Италия"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1947</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Канада -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Канада">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#НеписаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#СевернаяАмерика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Канада"/>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</количествоСтатей>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1867</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Катар -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Катар">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#АбсолютнаяМонархия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Азия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <являетсяАбсолютнойМонархией rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Катар"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Марокко -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Марокко">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Африка"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#КонституционнаяМонархия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <являетсяКонституционнойМонархией rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Марокко"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#НоваяЗеландия -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#НоваяЗеландия">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Австралия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#КонституционнаяМонархия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#НеписаныеКонституции"/>
+        <являетсяКонституционнойМонархией rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#НоваяЗеландия"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ОАЭ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ОАЭ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Азия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#КонституционнаяМонархия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <являетсяКонституционнойМонархией rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ОАЭ"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1971</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Оман -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Оман">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#АбсолютнаяМонархия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Азия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Церемониально"/>
+        <являетсяАбсолютнойМонархией rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Оман"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Португалия -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Португалия">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Европа"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Португалия"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1976</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#США -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#США">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#СевернаяАмерика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#США"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1789</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Узбекистан -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Узбекистан">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Азия"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Узбекистан"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</количествоСтатей>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Уругвай -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Уругвай">
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ИсполнительнаяВласть"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Конституция"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ПисаныеКонституции"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Республика"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#ЮжнаяАмерика"/>
+        <являетсяРеспубликой rdf:resource="http://www.semanticweb.org/shohruhred/ontologies/2022/1/untitled-ontology-14#Уругвай"/>
+        <датаПринятия rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1951</датаПринятия>
+        <количествоСтатей rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">332</количествоСтатей>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
